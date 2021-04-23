@@ -1,0 +1,10 @@
+name: ExtraBoomerangs
+version: ${project.version}
+main: me.cosmic.extraboomerangs.ExtraBoomerangs
+api-version: 1.16
+authors: [ CosmicL, Cosmic ]
+description: Adds multiple types of Boomerangs
+commands:
+  Boomerangs:
+    description: GIVE/LIST -> Boomerang types
+    usage: /<command> Give/List Boomerang Type
