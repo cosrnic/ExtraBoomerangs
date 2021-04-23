@@ -4,40 +4,40 @@
 Download: https://github.com/Cosmic-0022/ExtraBoomerangs/releases/tag/1.0
 <hr>
 Recipes: <br/>
-Enchanted Bone Block:
+Enchanted Bone Block: <br/>
 -9xBone Block (FULL 3x3 GRID)
 
-Base Boomerang:
--8xEnchanted Bone Block (OUTSIDE)
--1xBow (MIDDLE)
+Base Boomerang: <br/>
+-8xEnchanted Bone Block (OUTSIDE) <br/>
+-1xBow (MIDDLE) <br/>
 
-Wooden Boomerang:
--4xEnchanted Bone Block (STAR SHAPE)
--4xOak Wood (CORNERS) 
--1xBase Boomerang (MIDDLE)
+Wooden Boomerang: <br/>
+-4xEnchanted Bone Block (STAR SHAPE) <br/> 
+-4xOak Wood (CORNERS) <br/>
+-1xBase Boomerang (MIDDLE) <br/>
 
-Stone Boomerang:
--4xEnchanted Bone Block (STAR SHAPE)
--4xStone (CORNERS) 
--1xBase Boomerang (MIDDLE) 
+Stone Boomerang: <br/> 
+-4xEnchanted Bone Block (STAR SHAPE) <br/> 
+-4xStone (CORNERS) <br/> 
+-1xBase Boomerang (MIDDLE) <br/>
 
-Iron Boomerang:
--4xEnchanted Bone Block (STAR SHAPE)
--4xIron Ingot (CORNERS)
--1xBase Boomerang (MIDDLE) 
+Iron Boomerang: <br/> 
+-4xEnchanted Bone Block (STAR SHAPE) <br/>
+-4xIron Ingot (CORNERS) <br/>
+-1xBase Boomerang (MIDDLE) <br/>
 
-Diamond Boomerang:
--4xEnchanted Bone Block (STAR SHAPE)
--4xDiamond (CORNERS)
--1xBase Boomerang (MIDDLE)
+Diamond Boomerang: <br/>
+-4xEnchanted Bone Block (STAR SHAPE) <br/>
+-4xDiamond (CORNERS) <br/>
+-1xBase Boomerang (MIDDLE) <br/>
 
-Netherite Boomerang:
--4xEnchanted Bone Block (STAR SHAPE)
--4xNetherite Ingot (CORNERS)
--1xBase Boomerang (MIDDLE)
+Netherite Boomerang: <br/>
+-4xEnchanted Bone Block (STAR SHAPE) <br/>
+-4xNetherite Ingot (CORNERS) <br/>
+-1xBase Boomerang (MIDDLE) <br/>
 
-Upgraded Netherite Boomerang:
--4xEnchanted Bone Block (STAR SHAPE)
--4xNetherite Block (CORNERS)
--1xNetherite Boomerang (MIDDLE)
+Upgraded Netherite Boomerang: <br/>
+-4xEnchanted Bone Block (STAR SHAPE) <br/>
+-4xNetherite Block (CORNERS) <br/>
+-1xNetherite Boomerang (MIDDLE) <br/>
 
