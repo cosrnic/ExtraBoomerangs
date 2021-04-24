@@ -16,6 +16,8 @@ import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.util.EulerAngle;
 import org.bukkit.util.Vector;
 
+import java.util.Objects;
+
 public class Boomerangs implements Listener {
 
     ExtraBoomerangs plugin;
@@ -374,7 +376,7 @@ public class Boomerangs implements Listener {
                 }
             }
             if (p.getInventory().getItemInMainHand().getItemMeta().getDisplayName().equals(Utils.chat("&c&lUpgraded Netherite Boomerang"))) {
-                if (p.getInventory().getItemInMainHand().getItemMeta().getLore().contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
+                if (Objects.requireNonNull(p.getInventory().getItemInMainHand().getItemMeta().getLore()).contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
 
                     ArmorStand as = (ArmorStand) p.getWorld().spawnEntity(p.getLocation(), EntityType.ARMOR_STAND);
                     Location destination = p.getLocation().add(p.getLocation().getDirection().multiply(10));
