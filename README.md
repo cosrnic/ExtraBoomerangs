@@ -5,6 +5,9 @@
  <hr>
 Download: https://github.com/Cosmic-0022/ExtraBoomerangs/releases/tag/1.0
 <hr>
+List Command: /boomerangs list
+Give Command: /boomerangs type [<!>SEE /BOOMERANGS LIST<!>]
+<hr>
 Recipes: <br/>
 Enchanted Bone Block: <br/>
 -9xBone Block (FULL 3x3 GRID) <br/>
