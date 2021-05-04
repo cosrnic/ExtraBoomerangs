@@ -17,6 +17,9 @@ public class Commands implements CommandExecutor {
 
         if (cmd.getName().equalsIgnoreCase("Boomerangs")) {
             if (player.hasPermission("Boomerangs.give")) {
+                if(args.length == 0) {
+                    player.sendMessage(Utils.chat("&f[&4Extra&cBoomerangs&f] &7>> &cMissing Argument &f[&4LIST/GIVE&f]"));
+                }
                 if(args.length == 1) {
                     player.sendMessage(Utils.chat("&f[&4Extra&cBoomerangs&f] &7>> &cMissing Argument &f[&4LIST/GIVE&f]"));
                 }
