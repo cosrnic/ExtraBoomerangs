@@ -327,7 +327,7 @@ public class Boomerangs implements Listener {
 
                     String pname = p.getName();
                     as.setCustomNameVisible(true);
-                    as.setCustomName(Utils.chat("&c&l") + pname + Utils.chat("&c&lNetherite Boomerang"));
+                    as.setCustomName(Utils.chat("&c&l") + pname + Utils.chat("&c&l's Netherite Boomerang"));
                     as.setArms(true);
                     as.setGravity(false);
                     as.setVisible(false);
@@ -384,7 +384,7 @@ public class Boomerangs implements Listener {
 
                     String pname = p.getName();
                     as.setCustomNameVisible(true);
-                    as.setCustomName(Utils.chat("&c&l") + pname + Utils.chat("&c&lUpgraded Netherite Boomerang"));
+                    as.setCustomName(Utils.chat("&c&l") + pname + Utils.chat("&c&l's Upgraded Netherite Boomerang"));
                     as.setArms(true);
                     as.setGravity(false);
                     as.setVisible(false);
