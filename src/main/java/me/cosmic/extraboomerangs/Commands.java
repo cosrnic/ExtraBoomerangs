@@ -21,10 +21,6 @@ public class Commands implements CommandExecutor {
                     player.sendMessage(Utils.chat("&f[&4Extra&cBoomerangs&f] &7>> &cMissing Argument &f[&4LIST/GIVE&f]"));
                     return false;
                 }
-                if(args.length == 1) {
-                    player.sendMessage(Utils.chat("&f[&4Extra&cBoomerangs&f] &7>> &cMissing Argument &f[&4LIST/GIVE&f]"));
-                    return false;
-                }
                 if (args.length == 2) {
                     if (args[0].equalsIgnoreCase("give")) {
                         if (args[1].equalsIgnoreCase("Wood")) {
