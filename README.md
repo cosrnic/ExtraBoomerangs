@@ -3,7 +3,7 @@
  <hr>
  License: https://github.com/Cosmic-0022/ExtraBoomerangs/blob/main/LICENSE
  <hr>
-Download: https://github.com/Cosmic-0022/ExtraBoomerangs/releases/tag/1.0
+Download: https://github.com/Cosmic-0022/ExtraBoomerangs/releases/tag/1.1
 <hr>
 List Command: /boomerangs list<br/>
 Give Command: /boomerangs type [<!>SEE /BOOMERANGS LIST<!>]<br/>
