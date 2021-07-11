@@ -1,6 +1,8 @@
 # ExtraBoomerangs
  Minecraft Spigot 1.16.5 Plugin, Adds Boomerangs 
  <hr>
+ Need help? Contact me on discord @Cosmic#0022
+ <hr>
  License: https://github.com/Cosmic-0022/ExtraBoomerangs/blob/main/LICENSE
  <hr>
 Download: https://github.com/Cosmic-0022/ExtraBoomerangs/releases/tag/1.1
