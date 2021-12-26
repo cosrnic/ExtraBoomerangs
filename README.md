@@ -1,5 +1,5 @@
 # ExtraBoomerangs
- Minecraft Spigot 1.16.5 Plugin, Adds Boomerangs 
+ Minecraft Spigot Plugin, Adds Boomerangs 
  <hr>
  Need help? Contact me on discord @cosmicvfx#5436
  <hr>
