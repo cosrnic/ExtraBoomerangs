@@ -33,8 +33,9 @@ public class Boomerangs implements Listener {
 
         if(e.getAction().equals(Action.RIGHT_CLICK_AIR)) {
 
-            if (p.getInventory().getItemInMainHand().getItemMeta().getDisplayName().equals(Utils.chat("&6Wooden Boomerang"))) {
-                if (p.getInventory().getItemInMainHand().getItemMeta().getLore().contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
+
+            if (Objects.requireNonNull(p.getInventory().getItemInMainHand().getItemMeta()).getDisplayName().equals(Utils.chat("&6Wooden Boomerang"))) {
+                if (Objects.requireNonNull(p.getInventory().getItemInMainHand().getItemMeta().getLore()).contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
 
                     ArmorStand as = (ArmorStand) p.getWorld().spawnEntity(p.getLocation(), EntityType.ARMOR_STAND);
                     Location destination = p.getLocation().add(p.getLocation().getDirection().multiply(10));
@@ -46,10 +47,10 @@ public class Boomerangs implements Listener {
                     as.setArms(true);
                     as.setGravity(false);
                     as.setVisible(false);
-                    as.setItemInHand(new ItemStack(Material.BONE));
+                    as.setItemInHand(new ItemStack(Material.BONE, 1));
                     as.setRightArmPose(new EulerAngle(Math.toRadians(0), Math.toRadians(120), Math.toRadians(0)));
 
-                    p.getInventory().removeItem(ItemManager.WoodBoomerang);
+
 
                     Vector vector = destination.subtract(p.getLocation()).toVector();
 
@@ -58,6 +59,7 @@ public class Boomerangs implements Listener {
                         int i = 0;
 
                         public void run() {
+                            p.getInventory().removeItem(ItemManager.WoodBoomerang);
                             EulerAngle rot = as.getRightArmPose();
                             EulerAngle rotnew = rot.add(0, 20, 0);
                             as.setRightArmPose(rotnew);
@@ -89,9 +91,9 @@ public class Boomerangs implements Listener {
                         }
                     }.runTaskTimer(plugin, 1L, 1L);
                 }
-            }
+            }else
             if (p.getInventory().getItemInMainHand().getItemMeta().getDisplayName().equals(Utils.chat("&6Stone Boomerang"))) {
-                if (p.getInventory().getItemInMainHand().getItemMeta().getLore().contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
+                if (Objects.requireNonNull(p.getInventory().getItemInMainHand().getItemMeta().getLore()).contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
 
                     ArmorStand as = (ArmorStand) p.getWorld().spawnEntity(p.getLocation(), EntityType.ARMOR_STAND);
                     Location destination = p.getLocation().add(p.getLocation().getDirection().multiply(10));
@@ -103,10 +105,10 @@ public class Boomerangs implements Listener {
                     as.setArms(true);
                     as.setGravity(false);
                     as.setVisible(false);
-                    as.setItemInHand(new ItemStack(Material.BONE));
+                    as.setItemInHand(new ItemStack(Material.BONE, 1));
                     as.setRightArmPose(new EulerAngle(Math.toRadians(0), Math.toRadians(120), Math.toRadians(0)));
 
-                    p.getInventory().removeItem(ItemManager.StoneBoomerang);
+
 
                     Vector vector = destination.subtract(p.getLocation()).toVector();
 
@@ -115,6 +117,7 @@ public class Boomerangs implements Listener {
                         int i = 0;
 
                         public void run() {
+                            p.getInventory().removeItem(ItemManager.StoneBoomerang);
                             EulerAngle rot = as.getRightArmPose();
                             EulerAngle rotnew = rot.add(0, 20, 0);
                             as.setRightArmPose(rotnew);
@@ -146,9 +149,9 @@ public class Boomerangs implements Listener {
                         }
                     }.runTaskTimer(plugin, 1L, 1L);
                 }
-            }
+            }else
             if (p.getInventory().getItemInMainHand().getItemMeta().getDisplayName().equals(Utils.chat("&6Iron Boomerang"))) {
-                if (p.getInventory().getItemInMainHand().getItemMeta().getLore().contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
+                if (Objects.requireNonNull(p.getInventory().getItemInMainHand().getItemMeta().getLore()).contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
 
                     ArmorStand as = (ArmorStand) p.getWorld().spawnEntity(p.getLocation(), EntityType.ARMOR_STAND);
                     Location destination = p.getLocation().add(p.getLocation().getDirection().multiply(10));
@@ -160,18 +163,20 @@ public class Boomerangs implements Listener {
                     as.setArms(true);
                     as.setGravity(false);
                     as.setVisible(false);
-                    as.setItemInHand(new ItemStack(Material.BONE));
+                    as.setItemInHand(new ItemStack(Material.BONE, 1));
                     as.setRightArmPose(new EulerAngle(Math.toRadians(0), Math.toRadians(120), Math.toRadians(0)));
 
-                    p.getInventory().removeItem(ItemManager.IronBoomerang);
+
 
                     Vector vector = destination.subtract(p.getLocation()).toVector();
 
                     new BukkitRunnable() {
+
                         int distance = 40;
                         int i = 0;
 
                         public void run() {
+                            p.getInventory().removeItem(ItemManager.IronBoomerang);
                             EulerAngle rot = as.getRightArmPose();
                             EulerAngle rotnew = rot.add(0, 20, 0);
                             as.setRightArmPose(rotnew);
@@ -203,9 +208,9 @@ public class Boomerangs implements Listener {
                         }
                     }.runTaskTimer(plugin, 1L, 1L);
                 }
-            }
+            }else
             if (p.getInventory().getItemInMainHand().getItemMeta().getDisplayName().equals(Utils.chat("&dDiamond Boomerang"))) {
-                if (p.getInventory().getItemInMainHand().getItemMeta().getLore().contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
+                if (Objects.requireNonNull(p.getInventory().getItemInMainHand().getItemMeta().getLore()).contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
 
                     ArmorStand as = (ArmorStand) p.getWorld().spawnEntity(p.getLocation(), EntityType.ARMOR_STAND);
                     Location destination = p.getLocation().add(p.getLocation().getDirection().multiply(10));
@@ -217,10 +222,10 @@ public class Boomerangs implements Listener {
                     as.setArms(true);
                     as.setGravity(false);
                     as.setVisible(false);
-                    as.setItemInHand(new ItemStack(Material.BONE));
+                    as.setItemInHand(new ItemStack(Material.BONE, 1));
                     as.setRightArmPose(new EulerAngle(Math.toRadians(0), Math.toRadians(120), Math.toRadians(0)));
 
-                    p.getInventory().removeItem(ItemManager.DiamondBoomerang);
+
 
                     Vector vector = destination.subtract(p.getLocation()).toVector();
 
@@ -229,6 +234,7 @@ public class Boomerangs implements Listener {
                         int i = 0;
 
                         public void run() {
+                            p.getInventory().removeItem(ItemManager.DiamondBoomerang);
                             EulerAngle rot = as.getRightArmPose();
                             EulerAngle rotnew = rot.add(0, 20, 0);
                             as.setRightArmPose(rotnew);
@@ -260,9 +266,9 @@ public class Boomerangs implements Listener {
                         }
                     }.runTaskTimer(plugin, 1L, 1L);
                 }
-            }
+            }else
             if (p.getInventory().getItemInMainHand().getItemMeta().getDisplayName().equals(Utils.chat("&f&lQuartz Boomerang"))) {
-                if (p.getInventory().getItemInMainHand().getItemMeta().getLore().contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
+                if (Objects.requireNonNull(p.getInventory().getItemInMainHand().getItemMeta().getLore()).contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
 
                     ArmorStand as = (ArmorStand) p.getWorld().spawnEntity(p.getLocation(), EntityType.ARMOR_STAND);
                     Location destination = p.getLocation().add(p.getLocation().getDirection().multiply(10));
@@ -274,10 +280,10 @@ public class Boomerangs implements Listener {
                     as.setArms(true);
                     as.setGravity(false);
                     as.setVisible(false);
-                    as.setItemInHand(new ItemStack(Material.BONE));
+                    as.setItemInHand(new ItemStack(Material.BONE, 1));
                     as.setRightArmPose(new EulerAngle(Math.toRadians(0), Math.toRadians(120), Math.toRadians(0)));
 
-                    p.getInventory().removeItem(ItemManager.QuartzBoomerang);
+
 
                     Vector vector = destination.subtract(p.getLocation()).toVector();
 
@@ -286,6 +292,7 @@ public class Boomerangs implements Listener {
                         int i = 0;
 
                         public void run() {
+                            p.getInventory().removeItem(ItemManager.QuartzBoomerang);
                             EulerAngle rot = as.getRightArmPose();
                             EulerAngle rotnew = rot.add(0, 20, 0);
                             as.setRightArmPose(rotnew);
@@ -317,9 +324,9 @@ public class Boomerangs implements Listener {
                         }
                     }.runTaskTimer(plugin, 1L, 1L);
                 }
-            }
+            }else
             if (p.getInventory().getItemInMainHand().getItemMeta().getDisplayName().equals(Utils.chat("&c&lNetherite Boomerang"))) {
-                if (p.getInventory().getItemInMainHand().getItemMeta().getLore().contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
+                if (Objects.requireNonNull(p.getInventory().getItemInMainHand().getItemMeta().getLore()).contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
 
                     ArmorStand as = (ArmorStand) p.getWorld().spawnEntity(p.getLocation(), EntityType.ARMOR_STAND);
                     Location destination = p.getLocation().add(p.getLocation().getDirection().multiply(10));
@@ -331,10 +338,10 @@ public class Boomerangs implements Listener {
                     as.setArms(true);
                     as.setGravity(false);
                     as.setVisible(false);
-                    as.setItemInHand(new ItemStack(Material.BONE));
+                    as.setItemInHand(new ItemStack(Material.BONE, 1));
                     as.setRightArmPose(new EulerAngle(Math.toRadians(0), Math.toRadians(120), Math.toRadians(0)));
 
-                    p.getInventory().removeItem(ItemManager.NetheriteBoomerang);
+
 
                     Vector vector = destination.subtract(p.getLocation()).toVector();
 
@@ -343,6 +350,7 @@ public class Boomerangs implements Listener {
                         int i = 0;
 
                         public void run() {
+                            p.getInventory().removeItem(ItemManager.NetheriteBoomerang);
                             EulerAngle rot = as.getRightArmPose();
                             EulerAngle rotnew = rot.add(0, 20, 0);
                             as.setRightArmPose(rotnew);
@@ -374,7 +382,7 @@ public class Boomerangs implements Listener {
                         }
                     }.runTaskTimer(plugin, 1L, 1L);
                 }
-            }
+            }else
             if (p.getInventory().getItemInMainHand().getItemMeta().getDisplayName().equals(Utils.chat("&c&lUpgraded Netherite Boomerang"))) {
                 if (Objects.requireNonNull(p.getInventory().getItemInMainHand().getItemMeta().getLore()).contains(Utils.chat("&6Item Ability: Swing &e&lRIGHT CLICK"))) {
 
@@ -388,10 +396,10 @@ public class Boomerangs implements Listener {
                     as.setArms(true);
                     as.setGravity(false);
                     as.setVisible(false);
-                    as.setItemInHand(new ItemStack(Material.BONE));
+                    as.setItemInHand(new ItemStack(Material.BONE, 1));
                     as.setRightArmPose(new EulerAngle(Math.toRadians(0), Math.toRadians(120), Math.toRadians(0)));
 
-                    p.getInventory().removeItem(ItemManager.UpgradedNetheriteBoomerang);
+
 
                     Vector vector = destination.subtract(p.getLocation()).toVector();
 
@@ -400,6 +408,7 @@ public class Boomerangs implements Listener {
                         int i = 0;
 
                         public void run() {
+                            p.getInventory().removeItem(ItemManager.UpgradedNetheriteBoomerang);
                             EulerAngle rot = as.getRightArmPose();
                             EulerAngle rotnew = rot.add(0, 20, 0);
                             as.setRightArmPose(rotnew);

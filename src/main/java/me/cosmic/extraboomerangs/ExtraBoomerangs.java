@@ -22,7 +22,7 @@ public final class ExtraBoomerangs extends JavaPlugin {
         getCommand("Boomerangs").setExecutor(commands);
         getServer().getPluginManager().registerEvents(new Boomerangs(this), this);
         getServer().getConsoleSender().sendMessage(Utils.chat("&f[&4Extra&cBoomerangs&f] &7>> &7Plugin has &aSuccessfully Started&7!"));
-        getServer().getConsoleSender().sendMessage(Utils.chat("&f[&4Extra&cBoomerangs&f] &7>> &7Plugin coded by &4cosmicvfx&7#&c5436 &7on &9Discord"));
+        getServer().getConsoleSender().sendMessage(Utils.chat("&f[&4Extra&cBoomerangs&f] &7>> &7Plugin coded by &4cosmicvfx&7#5436 &7on &9Discord"));
 
 
         ItemStack EBBlock = new ItemStack(Material.BONE_BLOCK);
