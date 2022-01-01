@@ -38,6 +38,11 @@ Diamond Boomerang: <br/>
 -4xDiamond (CORNERS) <br/>
 -1xBase Boomerang (MIDDLE) <br/>
 
+Quartz Boomerang: <br/>
+-4xEnchanted Bone Block (STAR SHAPE) <br/>
+-4xQuartz Block (CORNERS) <br/>
+-1xBase Boomerang (MIDDLE) <br/>
+
 Netherite Boomerang: <br/>
 -4xEnchanted Bone Block (STAR SHAPE) <br/>
 -4xNetherite Ingot (CORNERS) <br/>
