@@ -7,7 +7,7 @@
  <hr>
 Download: https://github.com/Cosmic-0022/ExtraBoomerangs/releases/tag/1.1
 <hr>
-Spoigot: https://www.spigotmc.org/resources/extraboomerangs.98850/
+Spigot: https://www.spigotmc.org/resources/extraboomerangs.98850/
 <hr>
 List Command: /boomerangs list<br/>
 Give Command: /boomerangs type [<!>SEE /BOOMERANGS LIST<!>]<br/>
