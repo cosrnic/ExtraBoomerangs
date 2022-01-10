@@ -3,9 +3,9 @@
  <hr>
  Need help? Contact me on discord @cosmicvfx#5436
  <hr>
- License: https://github.com/Cosmic-0022/ExtraBoomerangs/blob/main/LICENSE
+ License: https://github.com/cosmllc/ExtraBoomerangs/blob/main/LICENSE
  <hr>
-Download: https://github.com/Cosmic-0022/ExtraBoomerangs/releases/tag/1.1
+Download: https://github.com/cosmllc/ExtraBoomerangs/releases/tag/1.1
 <hr>
 Spigot: https://www.spigotmc.org/resources/extraboomerangs.98850/
 <hr>
